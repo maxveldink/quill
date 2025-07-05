@@ -3,5 +3,20 @@
 version = 4
 
 [[package]]
+name = "quill-cli"
+version = "0.1.0"
+dependencies = [
+ "quill-engine",
+ "quill-primitives",
+]
+
+[[package]]
 name = "quill-engine"
+version = "0.1.0"
+dependencies = [
+ "quill-primitives",
+]
+
+[[package]]
+name = "quill-primitives"
 version = "0.1.0"

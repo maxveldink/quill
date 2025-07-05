@@ -1,0 +1,11 @@
+[package]
+name = "quill-engine"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Main gameplay logic for Quill"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+quill-primitives = { path = "../quill-primitives" }

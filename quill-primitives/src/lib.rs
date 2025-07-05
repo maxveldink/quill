@@ -1,6 +1,6 @@
 use std::fmt;
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone)]
 pub enum CardType {
     Character,
     Item,
@@ -9,7 +9,7 @@ pub enum CardType {
     Song,
 }
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone)]
 pub enum InkType {
     Amber,
     Amethyst,
@@ -32,14 +32,14 @@ impl fmt::Display for InkType {
     }
 }
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone)]
 pub enum Classification {
     Storyborn,
     Hero,
     Princess,
 }
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone)]
 pub enum Rarity {
     Common,
     Uncommon,
@@ -49,7 +49,7 @@ pub enum Rarity {
     Enchanted,
 }
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone)]
 pub struct Card {
     pub inkable: bool,
     pub ink_type: InkType,

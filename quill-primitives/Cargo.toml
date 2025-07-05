@@ -1,0 +1,10 @@
+[package]
+name = "quill-primitives"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Basic type definitions for Lorcana"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]

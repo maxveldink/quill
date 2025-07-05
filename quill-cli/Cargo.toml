@@ -1,0 +1,12 @@
+[package]
+name = "quill-cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Command-line interface for playing Quill locally"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+quill-primitives = { path = "../quill-primitives" }
+quill-engine = { path = "../quill-engine" }
