@@ -66,6 +66,7 @@ pub struct Card {
 }
 
 impl Card {
+    #[allow(clippy::too_many_arguments)]
     pub fn new(
         inkable: bool,
         ink_type: InkType,
