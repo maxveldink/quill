@@ -28,9 +28,9 @@ impl Deck {
             .collect()
     }
 
-    pub fn card_breakdown(&self) -> HashMap<Card, u8> {
+    pub fn card_breakdown(&self) -> HashMap<&Card, u8> {
         let mut card_counts = HashMap::new();
-        for card in self.cards.clone() {
+        for card in &self.cards {
             *card_counts.entry(card).or_insert(0) += 1;
         }
         card_counts
@@ -38,46 +38,56 @@ impl Deck {
 }
 
 pub trait DeckFormat {
-    fn validate(&self, deck: &Deck) -> Result<(), String>;
+    fn validate(&self, deck: &Deck) -> Result<(), DeckValidationError>;
+}
+
+#[derive(Debug, thiserror::Error, PartialEq)]
+pub enum DeckValidationError {
+    #[error("Deck needs at least {required} cards, but has {actual}")]
+    InsufficientCards { required: usize, actual: usize },
+    #[error("Deck needs at most {max} inks, but has {actual:?}")]
+    TooManyInks { max: usize, actual: Vec<InkType> },
+    #[error("Too many copies of {card}: {count}")]
+    TooManyCopies { card: Card, count: u8 },
 }
 
 pub struct TestingDeckFormat;
 impl DeckFormat for TestingDeckFormat {
-    fn validate(&self, deck: &Deck) -> Result<(), String> {
+    fn validate(&self, deck: &Deck) -> Result<(), DeckValidationError> {
         if deck.card_count() >= 10 {
             Ok(())
         } else {
-            Err(format!(
-                "Testing format: Deck needs at least 10 cards, but has {}",
-                deck.card_count()
-            ))
+            Err(DeckValidationError::InsufficientCards {
+                required: 10,
+                actual: deck.card_count(),
+            })
         }
     }
 }
 
 pub struct StandardDeckFormat;
 impl DeckFormat for StandardDeckFormat {
-    fn validate(&self, deck: &Deck) -> Result<(), String> {
+    fn validate(&self, deck: &Deck) -> Result<(), DeckValidationError> {
         if deck.card_count() < 60 {
-            return Err(format!(
-                "Standard format: Deck needs at least 60 cards, but has {}",
-                deck.card_count()
-            ));
+            return Err(DeckValidationError::InsufficientCards {
+                required: 60,
+                actual: deck.card_count(),
+            });
         }
 
         if deck.inks().len() > 2 {
-            return Err(format!(
-                "Standard format: Deck needs at most 2 inks, but has {:?}",
-                deck.inks()
-            ));
+            return Err(DeckValidationError::TooManyInks {
+                max: 2,
+                actual: deck.inks(),
+            });
         }
 
         for (card, count) in deck.card_breakdown() {
             if count > 4 {
-                return Err(format!(
-                    "Standard format: Too many copies of {}: {}",
-                    card, count
-                ));
+                return Err(DeckValidationError::TooManyCopies {
+                    card: card.clone(),
+                    count,
+                });
             }
         }
 
@@ -160,7 +170,10 @@ mod tests {
         assert!(result.is_err());
         assert_eq!(
             result.unwrap_err(),
-            "Testing format: Deck needs at least 10 cards, but has 0"
+            DeckValidationError::InsufficientCards {
+                required: 10,
+                actual: 0,
+            }
         );
     }
 
@@ -178,7 +191,10 @@ mod tests {
         assert!(result.is_err());
         assert_eq!(
             result.unwrap_err(),
-            "Standard format: Deck needs at least 60 cards, but has 0"
+            DeckValidationError::InsufficientCards {
+                required: 60,
+                actual: 0,
+            }
         );
     }
 
@@ -194,7 +210,10 @@ mod tests {
         assert!(result.is_err());
         assert_eq!(
             result.unwrap_err(),
-            "Standard format: Deck needs at most 2 inks, but has [Amber, Sapphire, Steel]"
+            DeckValidationError::TooManyInks {
+                max: 2,
+                actual: vec![InkType::Amber, InkType::Sapphire, InkType::Steel],
+            }
         );
     }
 
@@ -205,7 +224,10 @@ mod tests {
         assert!(result.is_err());
         assert_eq!(
             result.unwrap_err(),
-            "Standard format: Too many copies of 🟡 (1) Kida-Atlantean 2⚔️ | 2🛡️ | 1✨: 60"
+            DeckValidationError::TooManyCopies {
+                card: create_kida_atlantean_card(),
+                count: 60,
+            }
         );
     }
 }
