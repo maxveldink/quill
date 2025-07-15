@@ -1,0 +1,988 @@
+{
+  "cards": [
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Amber",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Kida",
+      "version_name": "Atlantean",
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    },
+    {
+      "inkable": true,
+      "ink_type": "Sapphire",
+      "cost": 1,
+      "card_type": "Character",
+      "name": "Flounder",
+      "version_name": "Voice of Reason",
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore_value": 1,
+      "rarity": "Common"
+    }
+  ]
+}
