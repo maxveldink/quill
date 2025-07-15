@@ -30,11 +30,10 @@ impl Deck {
     }
 
     pub fn card_breakdown(&self) -> HashMap<&Card, u8> {
-        let mut card_counts = HashMap::new();
-        for card in &self.cards {
-            *card_counts.entry(card).or_insert(0) += 1;
-        }
-        card_counts
+        self.cards.iter().fold(HashMap::new(), |mut acc, card| {
+            *acc.entry(card).or_insert(0) += 1;
+            acc
+        })
     }
 }
 
@@ -50,7 +49,7 @@ pub trait DeckFormat {
 
 #[derive(Debug, thiserror::Error, PartialEq)]
 pub enum DeckValidationError {
-    #[error("Deck needs at least {required} cards, but has {actual}")]
+    #[error("Deck needs at least {required} cards, but has {actual:?}")]
     InsufficientCards { required: usize, actual: usize },
     #[error("Deck needs at most {max} inks, but has {actual:?}")]
     TooManyInks { max: usize, actual: Vec<InkType> },

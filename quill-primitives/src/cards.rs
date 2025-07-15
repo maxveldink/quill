@@ -1,4 +1,7 @@
-use std::{fmt, hash::Hasher};
+use std::{
+    fmt,
+    hash::{Hash, Hasher},
+};
 
 #[derive(Debug, PartialEq, Eq, Clone, serde::Serialize, serde::Deserialize)]
 pub enum CardType {
@@ -98,7 +101,7 @@ impl Card {
     }
 }
 
-impl core::hash::Hash for Card {
+impl Hash for Card {
     fn hash<H: Hasher>(&self, state: &mut H) {
         self.name.hash(state);
         self.version_name.hash(state);
