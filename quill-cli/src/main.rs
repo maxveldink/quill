@@ -1,7 +1,6 @@
 use clap::{Parser, Subcommand};
 use quill_engine::Game;
 use quill_primitives::decks::{Deck, DeckFormat, StandardDeckFormat, TestingDeckFormat};
-use serde_json;
 use std::fs;
 use std::path::PathBuf;
 
@@ -60,7 +59,7 @@ fn validate_deck(file_path: &PathBuf, format: &str) {
     let json_content = match fs::read_to_string(file_path) {
         Ok(content) => content,
         Err(e) => {
-            eprintln!("Error reading file: {}", e);
+            eprintln!("Error reading file: {e}");
             std::process::exit(1);
         }
     };
@@ -68,7 +67,7 @@ fn validate_deck(file_path: &PathBuf, format: &str) {
     let deck: Deck = match serde_json::from_str(&json_content) {
         Ok(deck) => deck,
         Err(e) => {
-            eprintln!("Error parsing JSON: {}", e);
+            eprintln!("Error parsing JSON: {e}");
             std::process::exit(1);
         }
     };
@@ -78,10 +77,7 @@ fn validate_deck(file_path: &PathBuf, format: &str) {
         "testing" => Box::new(TestingDeckFormat),
         "standard" => Box::new(StandardDeckFormat),
         _ => {
-            eprintln!(
-                "Unknown format: {}. Supported formats: testing, standard",
-                format
-            );
+            eprintln!("Unknown format: {format}. Supported formats: testing, standard");
             std::process::exit(1);
         }
     };
@@ -89,11 +85,11 @@ fn validate_deck(file_path: &PathBuf, format: &str) {
     // Validate the deck
     match validator.validate(&deck) {
         Ok(()) => {
-            println!("✅ Deck is valid for {} format!", format);
+            println!("✅ Deck is valid for {format} format!");
             display_deck_info(&deck);
         }
         Err(e) => {
-            println!("❌ Deck validation failed: {}", e);
+            println!("❌ Deck validation failed: {e}");
             display_deck_info(&deck);
             std::process::exit(1);
         }
@@ -108,7 +104,7 @@ fn display_deck_info(deck: &Deck) {
     let breakdown = deck.card_breakdown();
     println!("\n📋 Card breakdown:");
     for (card, count) in breakdown {
-        println!("  {}x {}", count, card);
+        println!("  {count}x {card}");
     }
 }
 

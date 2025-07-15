@@ -38,6 +38,12 @@ impl Deck {
     }
 }
 
+impl Default for Deck {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 pub trait DeckFormat {
     fn validate(&self, deck: &Deck) -> Result<(), DeckValidationError>;
 }
