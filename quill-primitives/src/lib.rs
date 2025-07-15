@@ -1,3 +1,3 @@
-mod cards;
-mod decks;
+pub mod cards;
+pub mod decks;
 mod test_utils;

@@ -2,6 +2,7 @@ use crate::cards::{Card, InkType};
 use itertools::Itertools;
 use std::collections::HashMap;
 
+#[derive(serde::Serialize, serde::Deserialize)]
 pub struct Deck {
     cards: Vec<Card>,
 }

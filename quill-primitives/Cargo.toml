@@ -10,3 +10,4 @@ repository.workspace = true
 [dependencies]
 itertools = "0.14"
 thiserror = "2.0"
+serde = { version = "1.0", features = ["derive"] }

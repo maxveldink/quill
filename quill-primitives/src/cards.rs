@@ -1,6 +1,6 @@
 use std::{fmt, hash::Hasher};
 
-#[derive(Debug, PartialEq, Eq, Clone)]
+#[derive(Debug, PartialEq, Eq, Clone, serde::Serialize, serde::Deserialize)]
 pub enum CardType {
     Character,
     Item,
@@ -9,7 +9,9 @@ pub enum CardType {
     Song,
 }
 
-#[derive(Debug, PartialEq, Eq, Hash, Clone, PartialOrd, Ord)]
+#[derive(
+    Debug, PartialEq, Eq, Hash, Clone, PartialOrd, Ord, serde::Serialize, serde::Deserialize,
+)]
 pub enum InkType {
     Amber,
     Amethyst,
@@ -32,7 +34,7 @@ impl fmt::Display for InkType {
     }
 }
 
-#[derive(Debug, PartialEq, Eq, Clone)]
+#[derive(Debug, PartialEq, Eq, Clone, serde::Serialize, serde::Deserialize)]
 pub enum Classification {
     Storyborn,
     Hero,
@@ -40,7 +42,7 @@ pub enum Classification {
     Ally,
 }
 
-#[derive(Debug, PartialEq, Eq, Clone)]
+#[derive(Debug, PartialEq, Eq, Clone, serde::Serialize, serde::Deserialize)]
 pub enum Rarity {
     Common,
     Uncommon,
@@ -50,7 +52,7 @@ pub enum Rarity {
     Enchanted,
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
 pub struct Card {
     pub inkable: bool,
     pub ink_type: InkType,
